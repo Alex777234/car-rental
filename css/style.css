@@ -335,6 +335,7 @@ a:focus {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  line-height: 30px;
 }
 
 .info-list__item::before {
@@ -346,4 +347,71 @@ a:focus {
   height: 20px;
   width: 20px;
   margin-right: 15px;
+}
+
+/* footer  */
+.footer {
+  background-color:rgba(0,0,0, 0.03);
+}
+.footer__content {
+  padding-top: 40px;
+  margin-top: 60px;
+}
+.footer__title {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.footer-nav-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav-list__item {
+  margin-bottom: 15px;
+}
+
+.footer-nav-list__link {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.footer-nav-list__link::before {
+  content: '▸';
+  display: block;
+  font-size: 16px;
+  margin-right: 10px;
+  color: var(--activeColor);
+}
+
+.footer-nav-list__link:hover {
+  color: var(--activeColor);
+  transition: 0.2s;
+}
+
+.phone_left {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.politics {
+  text-align: center;
+}
+
+.politics::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color:rgba(0,0,0, 0.2);
+  margin: 30px 0;
+}
+
+.politics__text {
+  padding-bottom: 30px;
 }
