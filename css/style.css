@@ -75,6 +75,8 @@ a:focus {
   transition: 0.2s;
 }
 
+/* Navigation section */
+
 .logo__btn {
   text-decoration: none;
   font-size: 30px;
@@ -150,3 +152,5 @@ a:focus {
   margin-top: 5px;
   color: var(--black);
 }
+
+/* Home sections */
