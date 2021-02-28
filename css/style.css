@@ -489,3 +489,20 @@ a:focus {
 .autopark-card {
   margin-bottom: 30px;
 }
+
+/* Price section */
+.price__table {
+  width: 100%;
+  text-align: center;
+  border: 2px solid var(--black);
+}
+
+.price__table > tr, th, td {
+  border: 1px solid var(--black);
+  padding: 20px;
+  line-height: 30px;
+}
+
+.price__table_bold {
+  font-weight: 600;
+}
