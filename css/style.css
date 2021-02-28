@@ -506,3 +506,18 @@ a:focus {
 .price__table_bold {
   font-weight: 600;
 }
+
+/* about section */
+.about__content {
+  align-items: center;
+}
+
+.about__content:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.about__text {
+  width: 90%;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
