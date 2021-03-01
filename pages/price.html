@@ -19,6 +19,9 @@
         <p class="address__text">г. Новосибирск, ул. Кирова 228</p>
       </address>
       <a href="#" class="cabinet">Личный кабинет</a>
+      <a href="#" class="cabinet_hide">
+        <img src="../img/user.svg" alt="Иконка пользователя">
+      </a>
     </div>
   </header>
 
@@ -26,28 +29,64 @@
     <section class="navigation">
       <div class="container navigation__block">
         <div class="logo">
-          <a href="../index.html" class="logo__btn">Liberti car</a>
+          <a class="logo__btn">Liberti car</a>
           <p class="logo__desc">Прокат автомобилей</p>
         </div>
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-list__item"><a href="../index.html" class="nav-list__link">Главная</a></li>
-            <li class="nav-list__item"><a href="/pages/autopark.html" class="nav-list__link">Автопарк</a></li>
-            <li class="nav-list__item"><a href="/pages/price.html" class="nav-list__link" active>Тарифы</a></li>
-            <li class="nav-list__item"><a href="/pages/about.html" class="nav-list__link">О компании</a></li>
-            <li class="nav-list__item"><a href="/pages/contact.html" class="nav-list__link">Контакты</a></li>
+            <li class="nav-list__item"><a href="autopark.html" class="nav-list__link">Автопарк</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" active>Тарифы</a></li>
+            <li class="nav-list__item"><a href="about.html" class="nav-list__link">О компании</a></li>
+            <li class="nav-list__item"><a href="contact.html" class="nav-list__link">Контакты</a></li>
           </ul>
         </nav>
         <div class="phone">
           <a href="tel:88054561456" class="phone__btn">8 (805) 456 14-56</a>
           <p class="phone__desc">Пн-Пт, с 9:00 до 21:00</p>
         </div>
+        <div class="burger">
+          <span class="burger__item"></span>
+        </div>
+        <div class="drop drop__block">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <nav class="drop-menu">
+                  <ul class="drop-menu-list">
+                    <li class="drop-menu-list__item"><a href="../index.html" class="drop-menu-list__link">Главная</a>
+                    </li>
+                    <li class="drop-menu-list__item"><a href="autopark.html" class="drop-menu-list__link">Автопарк</a>
+                    </li>
+                    <li class="drop-menu-list__item"><a class="drop-menu-list__link" active>Тарифы</a>
+                    </li>
+                    <li class="drop-menu-list__item"><a href="about.html" class="drop-menu-list__link">О
+                        компании</a>
+                    </li>
+                    <li class="drop-menu-list__item"><a href="contact.html" class="drop-menu-list__link">Контакты</a>
+                    </li>
+                  </ul>
+                </nav>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="drop-phone drop__phone">
+                  <a href="tel:88054561456" class="drop-phone__btn">8 (805) 456 14-56</a>
+                  <p class="drop-phone__desc">Пн-Пт, с 9:00 до 21:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="drop_close">&times</button>
+        </div>
       </div>
     </section>
     <section class="price">
       <div class="container">
         <div class="row">
-          <div class="col-xl-12">
+          <div class="col-xl-12 price__content">
             <table class="price__table">
               <tr>
                 <th class="price__table_bold">ID</th>
@@ -127,6 +166,7 @@
     </div>
   </footer>
 
+  <script src="../js/main.js"></script>
 </body>
 
 </html>
