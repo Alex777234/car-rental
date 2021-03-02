@@ -17,16 +17,14 @@
     <div class="container authorization__content">
       <form class="form-auth">
         <div class="logo">
-          <a href="index.html" class="logo__btn">Liberti car</a>
+          <a href="index.php" class="logo__btn">Liberti car</a>
           <p class="logo__desc">Прокат автомобилей</p>
         </div>
-        <h3 class="form-auth__title">Регистрация</h3>
-        <input type="text" placeholder="Ваше имя" class="form-auth__input">
+        <h3 class="form-auth__title">Авторизация</h3>
         <input type="email" placeholder="Введите email" class="form-auth__input">
         <input type="password" placeholder="Введите пароль" class="form-auth__input">
-        <input type="password" placeholder="Повторите пароль" class="form-auth__input">
-        <button class="btn form-auth__btn">Регистрация</button>
-        <a href="authorization.html" class="form-auth__link">Войти с существующий аккаунт</a>
+        <button class="btn form-auth__btn">Войти</button>
+        <a href="registration.php" class="form-auth__link">Регистрация нового аккаунта</a>
       </form>
   </section>
 

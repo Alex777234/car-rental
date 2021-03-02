@@ -23,8 +23,8 @@
         <img src="../img/user.svg" alt="Иконка пользователя">
       </a>
       <div class="drop-cabinet drop__cabinet">
-        <a href="../authorization.html" class="drop-cabinet__link">Авторизация</a>
-        <a href="../registration.html" class="drop-cabinet__link">Регистрация</a>
+        <a href="../authorization.php" class="drop-cabinet__link">Авторизация</a>
+        <a href="../registration.php" class="drop-cabinet__link">Регистрация</a>
         <!-- <a href="#" class="drop-cabinet__link">Выход</a> -->
       </div>
     </div>
@@ -34,15 +34,15 @@
     <section class="navigation">
       <div class="container navigation__block">
         <div class="logo">
-          <a href="../index.html" class="logo__btn">Liberti car</a>
+          <a href="../index.php" class="logo__btn">Liberti car</a>
           <p class="logo__desc">Прокат автомобилей</p>
         </div>
         <nav class="nav">
           <ul class="nav-list">
-            <li class="nav-list__item"><a href="../index.html" class="nav-list__link">Главная</a></li>
-            <li class="nav-list__item"><a href="autopark.html" class="nav-list__link">Автопарк</a></li>
-            <li class="nav-list__item"><a href="price.html" class="nav-list__link">Тарифы</a></li>
-            <li class="nav-list__item"><a href="about.html" class="nav-list__link">О компании</a></li>
+            <li class="nav-list__item"><a href="../index.php" class="nav-list__link">Главная</a></li>
+            <li class="nav-list__item"><a href="autopark.php" class="nav-list__link">Автопарк</a></li>
+            <li class="nav-list__item"><a href="price.php" class="nav-list__link">Тарифы</a></li>
+            <li class="nav-list__item"><a href="about.php" class="nav-list__link">О компании</a></li>
             <li class="nav-list__item"><a class="nav-list__link" active>Контакты</a></li>
           </ul>
         </nav>
@@ -59,13 +59,13 @@
               <div class="col-md-12">
                 <nav class="drop-menu">
                   <ul class="drop-menu-list">
-                    <li class="drop-menu-list__item"><a href="../index.html" class="drop-menu-list__link">Главная</a>
+                    <li class="drop-menu-list__item"><a href="../index.php" class="drop-menu-list__link">Главная</a>
                     </li>
-                    <li class="drop-menu-list__item"><a href="autopark.html" class="drop-menu-list__link">Автопарк</a>
+                    <li class="drop-menu-list__item"><a href="autopark.php" class="drop-menu-list__link">Автопарк</a>
                     </li>
-                    <li class="drop-menu-list__item"><a href="price.html" class="drop-menu-list__link">Тарифы</a>
+                    <li class="drop-menu-list__item"><a href="price.php" class="drop-menu-list__link">Тарифы</a>
                     </li>
-                    <li class="drop-menu-list__item"><a href="about.html" class="drop-menu-list__link">О
+                    <li class="drop-menu-list__item"><a href="about.php" class="drop-menu-list__link">О
                         компании</a>
                     </li>
                     <li class="drop-menu-list__item"><a class="drop-menu-list__link" active>Контакты</a>
@@ -127,12 +127,12 @@
           <h4 class="footer__title">Навигация</h4>
           <nav class="footer-nav">
             <ul class="footer-nav-list">
-              <li class="footer-nav-list__item"><a href="../index.html" class="footer-nav-list__link">Главная</a></li>
-              <li class="footer-nav-list__item"><a href="autopark.html" class="footer-nav-list__link">Автопарк</a>
+              <li class="footer-nav-list__item"><a href="../index.php" class="footer-nav-list__link">Главная</a></li>
+              <li class="footer-nav-list__item"><a href="autopark.php" class="footer-nav-list__link">Автопарк</a>
               </li>
-              <li class="footer-nav-list__item"><a href="price.html" class="footer-nav-list__link">Тарифы</a>
+              <li class="footer-nav-list__item"><a href="price.php" class="footer-nav-list__link">Тарифы</a>
               </li>
-              <li class="footer-nav-list__item"><a href="about.html" class="footer-nav-list__link">О
+              <li class="footer-nav-list__item"><a href="about.php" class="footer-nav-list__link">О
                   компании</a>
               </li>
               <li class="footer-nav-list__item"><a class="footer-nav-list__link">Контакты</a>

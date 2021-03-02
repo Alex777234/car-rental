@@ -7,7 +7,7 @@ const mainImage = document.querySelector('.main__image');
 const dropCabinet = document.querySelector('.drop__cabinet');
 const dropCabinetLink = document.querySelector('.cabinet');
 const dropCabinetImage = document.querySelector('.cabinet_hide ');
-
+// Show / hide drop block
 burger.addEventListener('click', () => {
   burgerSpan.classList.toggle('burger__item_active');
   drop.classList.toggle('drop__block_active');

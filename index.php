@@ -23,8 +23,8 @@
         <img src="img/user.svg" alt="Иконка пользователя">
       </a>
       <div class="drop-cabinet drop__cabinet">
-        <a href="authorization.html" class="drop-cabinet__link">Авторизация</a>
-        <a href="registration.html" class="drop-cabinet__link">Регистрация</a>
+        <a href="authorization.php" class="drop-cabinet__link">Авторизация</a>
+        <a href="registration.php" class="drop-cabinet__link">Регистрация</a>
         <!-- <a href="#" class="drop-cabinet__link">Выход</a> -->
       </div>
     </div>
@@ -40,10 +40,10 @@
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-list__item"><a class="nav-list__link" active>Главная</a></li>
-            <li class="nav-list__item"><a href="/pages/autopark.html" class="nav-list__link">Автопарк</a></li>
-            <li class="nav-list__item"><a href="/pages/price.html" class="nav-list__link">Тарифы</a></li>
-            <li class="nav-list__item"><a href="/pages/about.html" class="nav-list__link">О компании</a></li>
-            <li class="nav-list__item"><a href="/pages/contact.html" class="nav-list__link">Контакты</a></li>
+            <li class="nav-list__item"><a href="/pages/autopark.php" class="nav-list__link">Автопарк</a></li>
+            <li class="nav-list__item"><a href="/pages/price.php" class="nav-list__link">Тарифы</a></li>
+            <li class="nav-list__item"><a href="/pages/about.php" class="nav-list__link">О компании</a></li>
+            <li class="nav-list__item"><a href="/pages/contact.php" class="nav-list__link">Контакты</a></li>
           </ul>
         </nav>
         <div class="phone">
@@ -60,15 +60,15 @@
                 <nav class="drop-menu">
                   <ul class="drop-menu-list">
                     <li class="drop-menu-list__item"><a class="drop-menu-list__link" active>Главная</a></li>
-                    <li class="drop-menu-list__item"><a href="pages/autopark.html"
+                    <li class="drop-menu-list__item"><a href="pages/autopark.php"
                         class="drop-menu-list__link">Автопарк</a>
                     </li>
-                    <li class="drop-menu-list__item"><a href="pages/price.html" class="drop-menu-list__link">Тарифы</a>
+                    <li class="drop-menu-list__item"><a href="pages/price.php" class="drop-menu-list__link">Тарифы</a>
                     </li>
-                    <li class="drop-menu-list__item"><a href="pages/about.html" class="drop-menu-list__link">О
+                    <li class="drop-menu-list__item"><a href="pages/about.php" class="drop-menu-list__link">О
                         компании</a>
                     </li>
-                    <li class="drop-menu-list__item"><a href="pages/contact.html"
+                    <li class="drop-menu-list__item"><a href="pages/contact.php"
                         class="drop-menu-list__link">Контакты</a>
                     </li>
                   </ul>
@@ -100,7 +100,7 @@
                 и&nbsp;прозрачные условия
                 работы
               </p>
-              <a href="pages/autopark.html" class="btn main__btn">Забронировать</a>
+              <a href="pages/autopark.php" class="btn main__btn">Забронировать</a>
             </div>
           </div>
           <div class="col-xl-6 .col-md-12">
@@ -166,7 +166,7 @@
                 <img src="img/news/car_1.png" alt="Изображение автомобиля" class="news-card__img">
               </div>
               <h3 class="news-card__title">BMW 320</h3>
-              <a href="pages/autopark.html" class="btn news-card__btn">В каталог</a>
+              <a href="pages/autopark.php" class="btn news-card__btn">В каталог</a>
               <div class="news-card__info">
                 <span class="news-card__setting">
                   <img src="img/news/settings.svg" alt="Иконка карточки">
@@ -186,7 +186,7 @@
                 <img src="img/news/car_2.png" alt="Изображение автомобиля" class="news-card__img">
               </div>
               <h3 class="news-card__title">Mercedes-Benz GLC</h3>
-              <a href="pages/autopark.html" class="btn news-card__btn">В каталог</a>
+              <a href="pages/autopark.php" class="btn news-card__btn">В каталог</a>
               <div class="news-card__info">
                 <span class="news-card__setting">
                   <img src="img/news/settings.svg" alt="Иконка карточки">
@@ -206,7 +206,7 @@
                 <img src="img/news/car_3.png" alt="Изображение автомобиля" class="news-card__img">
               </div>
               <h3 class="news-card__title">Audi A6 AT 2.0</h3>
-              <a href="pages/autopark.html" class="btn news-card__btn">В каталог</a>
+              <a href="pages/autopark.php" class="btn news-card__btn">В каталог</a>
               <div class="news-card__info">
                 <span class="news-card__setting">
                   <img src="img/news/settings.svg" alt="Иконка карточки">
@@ -226,7 +226,7 @@
                 <img src="img/news/car_4.png" alt="Изображение автомобиля" class="news-card__img">
               </div>
               <h3 class="news-card__title">Audi Q5</h3>
-              <a href="pages/autopark.html" class="btn news-card__btn">В каталог</a>
+              <a href="pages/autopark.php" class="btn news-card__btn">В каталог</a>
               <div class="news-card__info">
                 <span class="news-card__setting">
                   <img src="img/news/settings.svg" alt="Иконка карточки">
@@ -295,14 +295,14 @@
           <nav class="footer-nav">
             <ul class="footer-nav-list">
               <li class="footer-nav-list__item"><a class="footer-nav-list__link">Главная</a></li>
-              <li class="footer-nav-list__item"><a href="pages/autopark.html" class="footer-nav-list__link">Автопарк</a>
+              <li class="footer-nav-list__item"><a href="pages/autopark.php" class="footer-nav-list__link">Автопарк</a>
               </li>
-              <li class="footer-nav-list__item"><a href="pages/price.html" class="footer-nav-list__link">Тарифы</a>
+              <li class="footer-nav-list__item"><a href="pages/price.php" class="footer-nav-list__link">Тарифы</a>
               </li>
-              <li class="footer-nav-list__item"><a href="pages/about.html" class="footer-nav-list__link">О
+              <li class="footer-nav-list__item"><a href="pages/about.php" class="footer-nav-list__link">О
                   компании</a>
               </li>
-              <li class="footer-nav-list__item"><a href="pages/contact.html" class="footer-nav-list__link">Контакты</a>
+              <li class="footer-nav-list__item"><a href="pages/contact.php" class="footer-nav-list__link">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -311,8 +311,8 @@
           <h4 class="footer__title">Личный кабинет</h4>
           <nav class="footer-nav">
             <ul class="footer-nav-list">
-              <li class="footer-nav-list__item"><a href="#" class="footer-nav-list__link">Авторизация</a></li>
-              <li class="footer-nav-list__item"><a href="#" class="footer-nav-list__link">Регистрация</a></li>
+              <li class="footer-nav-list__item"><a href="authorization.php" class="footer-nav-list__link">Авторизация</a></li>
+              <li class="footer-nav-list__item"><a href="registration.php" class="footer-nav-list__link">Регистрация</a></li>
             </ul>
           </nav>
         </div>
