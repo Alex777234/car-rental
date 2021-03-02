@@ -345,6 +345,7 @@ a:focus {
 .drop__block {
   position: absolute;
   top: 59px;
+  z-index: 5;
   left: 0;
   transform: translateY(-150%);
   transition: 0.7s;
